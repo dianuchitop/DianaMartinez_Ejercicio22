@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-
-
 datos=np.loadtxt("MetHas.txt").T
 
 plt.figure(figsize=[10,8])
