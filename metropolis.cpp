@@ -21,6 +21,7 @@ int main(){
 myfile.open("MetHas.txt");
 if (myfile.is_open())
     {   
+    
     for(cont = 0;cont<Nit;cont++){
      
      double propuesta = x+ 2*((double) rand() / (RAND_MAX))-1;
